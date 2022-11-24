@@ -11,9 +11,6 @@ public class ParenthesesChecker {
             for(int i=0; i < parentheses.length(); i++) {
             p = parentheses.charAt(i);
 
-
-
-
             if(p == '(')
                 pStack.push(p);
             else if(p == '{')
@@ -54,13 +51,9 @@ public class ParenthesesChecker {
                     pStack.pop();
                 else
                     return false;
-
-
-
         }
         return pStack.empty();
     }
-
     //Goal: write method called checkParentheses                               >>>tick
     //what does it do: takes in testString then...                             >>>tick
     // ...returns boolean. (because test shows 'assertTrue')                   >>>tick
@@ -73,11 +66,6 @@ public class ParenthesesChecker {
 
     //if none of these situations arise, then return true.                     >>>tick
 
-    // also, use stacks. (maybe even an enhanced for loop. but I would have to do something to the string before using the loop)   >>> tick
-    //
-    //---------------------------------
-
-
-
+    // also, use stacks.                                                       >>> tick
 
 }
